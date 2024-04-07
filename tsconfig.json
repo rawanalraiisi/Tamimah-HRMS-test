@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": [
+      "react",
+      "react-dom",
+      "react-query",
+      "chart.js",
+      "axios",
+      "react-topbar-progress-indicator",
+      "react-router-dom",
+      "clsx",
+      "formik",
+      "yup",
+      "@mui/material",
+      "date-fns",
+      "@mui/icons-material",
+      "react-intl",
+      "react-bootstrap",
+      "@fortawesome/react-fontawesome",
+      "js-cookie",
+      "react-table",
+      "react-pdf",
+      "@types/react-pdf",
+      "apexcharts",
+      "bootstrap",
+      "@types/bootstrap",
+      "react-inlinesvg",
+      "@types/react-inlinesvg",
+      "sass",
+      "animate.css",
+      "socicon",
+      "@fortawesome/fontawesome-free",
+      "line-awesome",
+      "prism-themes",
+      "bootstrap-icons",
+      "@mui/system",
+      "@mui/styled-engine"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}

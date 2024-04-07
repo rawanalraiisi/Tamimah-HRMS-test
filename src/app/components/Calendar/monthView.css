@@ -1,0 +1,41 @@
+.day-header {
+    text-align: center;
+    height: 30px;
+}
+
+.calendar-day {
+    text-align: center;
+    height: 30px;
+}
+
+.Sick {
+    background-color: rgba(52, 168, 203, 0.5);
+}
+
+.Maternity {
+    background-color: rgba(98, 85, 163, 0.55);
+}
+
+.Compassionate {
+    background-color: rgba(20, 57, 131, 0.45);
+}
+
+.Hajj {
+    background-color: rgba(52, 168, 203, 0.5);
+}
+
+.Marriage {
+    background-color: rgba(98, 85, 163, 0.55)
+}
+
+.Annual {
+    background-color: rgba(20, 57, 131, 0.45);
+}
+
+.Unpaid {
+    background-color: rgba(52, 168, 203, 0.5);
+}
+
+.Others {
+    background-color: rgba(98, 85, 163, 0.55)
+}

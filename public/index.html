@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Tamimah Telecom" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"
+    />
+    <title>Tamimah Telecom | Oman</title>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA6UlEQVR4AWNwL/AZUDw4HTDqAPMtl/VNVpwOBuJk4xWny2AYJAaSw6YnOXyJKBCHAHE+Gg5JDVlsDqT5iHYA0KIvQPwfD/4CchBILdTwI0D8nwAOIcUBewg44L/Z5kv/tWrW3EwJXvSaCMv/gxxKigOSgbgH5EsoOxgmhuw4Lp2q/xYu/f9zolb8BzkkKXTxZFiww6IDJAYVF6UgEWKmEYW8RT9BDhCwaPoPsoDuuUDTrnMNyHIhk/ofElMPKAyoA3T69mqNTAeMOmDUAaMOGHXAqANGHTDqAJDlIuYNryh1wIDiUQeMOgAAKSmiSUNmez4AAAAASUVORK5CYII=" />
+    <link rel="stylesheet" id="layout-styles-anchor" href="%PUBLIC_URL%/splash-screen.css" />
+  </head>
+
+  <body id="kt_body" class="page-loading">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!--begin::Theme mode setup on page load-->
+    <script>
+      let themeMode = 'system'
+
+      if (localStorage.getItem('kt_theme_mode_value')) {
+        themeMode = localStorage.getItem('kt_theme_mode_value')
+      }
+
+      if (themeMode === 'system') {
+        themeMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      }
+
+      document.documentElement.setAttribute('data-bs-theme', themeMode)
+    </script>
+    <!--end::Theme mode setup on page load-->
+
+    <div id="root"></div>
+
+    <!--begin::Loading markup-->
+    <div id="splash-screen" class="splash-screen">
+      <img
+        src='%PUBLIC_URL%//media/logos/TT-logo-colour2.png'
+        class="dark-logo"
+        alt="Metronic dark logo"
+        style="width: 200; height: 200px;"
+      />
+      <img
+        src="%PUBLIC_URL%//media/logos/TT-logo-colour2.png"
+        class="light-logo"
+        alt="Metronic light logo"
+        style="width: 200; height: 200px;"
+      />
+      <span class="fs-9">Loading ...</span>
+    </div>
+    <!--end::Loading markup-->
+
+    <div id="root-modals"></div>
+  </body>
+</html>
